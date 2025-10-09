@@ -263,7 +263,6 @@ function ProductList({ onHomeClick }) {
     const handleAddToCart = (product) => {
         dispatch(addItem(product));
         setAddedToCart((prevState) => ({ ...prevState, [product.name]: true }));
-        console.log("added to cart");
     };  
 
     return (
