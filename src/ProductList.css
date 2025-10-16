@@ -188,6 +188,18 @@ body {
 
     
 }
+
+
+.total {
+    position: absolute;
+    top: 31px;
+    right: 36px; 
+    color: white;
+    padding: 5px;
+    font-size: 23px;
+  }
+
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
