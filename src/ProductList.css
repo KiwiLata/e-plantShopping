@@ -200,6 +200,10 @@ body {
   }
 
 
+.added-to-cart {
+    background-color: gray;
+}
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
